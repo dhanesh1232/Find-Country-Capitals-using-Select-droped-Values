@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+}
+.card-container {
+  background-color: #f8fafc;
+  height: 30%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid;
+  border-radius: 8px;
+}
+
+.drop-box {
+  display: flex;
+  align-items: center;
+}
+.select-drop {
+  height: 40px;
+  width: 180px;
+  border: 2px solid #cdd2d9;
+  border-radius: 4px;
+  font-size: 17px;
+}
+.values {
+  font-size: 17px;
+}
+p {
+  font-size: 18px;
+}
+.country {
+  align-self: flex-start;
+  margin-left: 40px;
+  font-size: 30px;
+  font-weight: bold;
+}
